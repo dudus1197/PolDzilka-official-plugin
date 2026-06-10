@@ -1,0 +1,20 @@
+# ====================================================
+# Baza danych działek pluginu poldzialka
+# Plik jest generowany automatycznie - nie edytuj ręcznie
+# ====================================================
+
+# Format zapisu działki:
+# plots:
+#   region_name:
+#     owner: "uuid gracza"
+#     owner-name: "nick gracza"
+#     world: "nazwa świata"
+#     center-x: koordynata X
+#     center-y: koordynata Y
+#     center-z: koordynata Z
+#     size: rozmiar działki (11, 15, 21, 31)
+#     members:
+#       - "nick członka 1"
+#       - "nick członka 2"
+
+plots: {}

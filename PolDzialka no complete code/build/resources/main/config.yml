@@ -1,0 +1,35 @@
+# ====================================================
+# Konfiguracja pluginu poldzialka v1.22
+# Plugin do zarządzania działkami z integracją WorldGuard
+# ====================================================
+
+# Język pluginu: pl (polski) lub en (angielski)
+language: pl
+
+# Material bloku do tworzenia działek
+plot-block-material: DIAMOND_BLOCK
+
+# Material przedmiotu do give
+plot-item-material: DIAMOND_BLOCK
+
+# Dozwolone rozmiary działek (muszą być nieparzyste)
+allowed-sizes:
+  - 11
+  - 15
+  - 21
+  - 31
+
+# Minimalny odstęp między działkami
+minimum-gap: 1
+
+# Wysokość świata (dla kreowania regionów)
+min-world-height: -64
+max-world-height: 320
+
+# Domyślne flagi dla nowych działek
+default-flags:
+  - 'pvp: DENY'
+  - 'entry: ALLOW'
+  - 'mob-spawning: DENY'
+  - 'chest-access: ALLOW'
+  - 'ride: ALLOW'

@@ -1,0 +1,22 @@
+name: poldzialka
+main: pl.poldzialka.Poldzialka
+version: '1.22'
+authors: [ mcmodstudio ]
+depend: [WorldEdit, WorldGuard]
+commands:
+  dzialka:
+    description: Otwórz menu działki lub wydaj blok działki.
+    usage: /dzialka [daj <rozmiar>]
+    aliases: [poldzialka]
+    permission: poldzialka.use
+    permission-message: '&cNie masz uprawnień do użycia tej komendy.'
+permissions:
+  poldzialka.use:
+    description: Pozwala używać komendy /dzialka
+    default: true
+  poldzialka.daj:
+    description: Pozwala wydawać blok działki
+    default: op
+  poldzialka.dajpermisje:
+    description: Pozwala nadawać podstawowe permisje przez LuckPerms (dajpermisje)
+    default: op

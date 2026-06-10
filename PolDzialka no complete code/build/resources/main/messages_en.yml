@@ -1,0 +1,110 @@
+# ====================================================
+# Messages for poldzialka plugin - English
+# Complete file with all messages
+# ====================================================
+
+plugin-prefix: '&8[&bpoldzialka&8]'
+
+# ============ Plot Messages ============
+plot-created: '&a✓ Plot created! Region: &e%region%'
+plot-deleted: '&a✓ Plot deleted!'
+plot-error: '&cError creating plot'
+plot-too-close: '&cThat plot is too close to another plot!'
+plot-wrong-location: '&cYou can only place a plot on solid ground!'
+plot-invalid-size: '&cInvalid plot size! Allowed: 11, 15, 21, 31'
+plot-invalid-item: '&cThis item is not a plot block.'
+plot-not-on-own-plot: '&cYou must stand inside your own plot to open the menu.'
+plot-break-not-owner: '&cOnly the owner can break the center of the plot!'
+plot-no-permission: '&cYou do not have permission to use this command.'
+no-permission-plot: '&cYou do not have permission to manage this plot!'
+
+# ============ Member Messages ============
+plot-add-member-prompt: '&eType the player name you want to add to the plot:'
+plot-added-member: '&a✓ Player &e%member% &ahas been added to the plot!'
+plot-removed-member: '&a✓ Player &e%member% &ahas been removed from the plot!'
+plot-member-already-exists: '&cThat player is already a member of this plot!'
+plot-member-not-found: '&cNo online player with that name was found.'
+plot-member-not-on-plot: '&cThat player is not a member of this plot.'
+member-added-self: '&cYou cannot add yourself as a member.'
+
+# ============ Flag Messages ============
+flag-pvp-toggled: '&e✓ PVP flag has been changed'
+flag-entry-toggled: '&e✓ ENTRY flag has been changed'
+flag-mob-spawning-toggled: '&e✓ MOB_SPAWNING flag has been changed'
+flag-chest-access-toggled: '&e✓ CHEST_ACCESS flag has been changed'
+flag-ride-toggled: '&e✓ RIDE flag has been changed'
+
+# ============ Menu GUI - Main ============
+menu-main-title: '&b&l» Plot Menu «'
+menu-manage-members: '&e&lManage Members'
+menu-manage-members-desc: '&7Click to manage plot members'
+menu-manage-members-lore:
+  - '&7Click to manage plot members.'
+  
+menu-manage-flags: '&e&lFlag Settings'
+menu-manage-flags-desc: '&7Click to change region flags'
+  
+menu-plot-info: '&e&lInformation'
+menu-plot-info-desc: '&7Click to view plot information'
+menu-plot-info-lore:
+  - '&7View details about your plot.'
+  
+menu-delete-plot: '&4&lDelete Plot'
+menu-delete-plot-desc: '&7Click to delete the plot'
+menu-delete-plot-lore:
+  - '&7Remove the plot and receive the plot block.'
+
+# ============ Menu GUI - Members ============
+menu-add-member: '&a&lAdd Member'
+menu-add-member-lore:
+  - '&7Add a new player to your plot.'
+  
+menu-remove-member: '&c&lRemove Member'
+menu-remove-member-lore:
+  - '&7Remove a member from your plot.'
+  
+menu-member-list-title: '&e&l» Member List «'
+
+# ============ Menu GUI - Flags ============
+menu-flags-title: '&b&l» Flag Settings «'
+flag-pvp: '&6PVP (Combat)'
+flag-entry: '&6Entry'
+flag-mob-spawning: '&6Mob Spawning'
+flag-chest-access: '&6Chest Access'
+flag-ride: '&6Vehicles/Carts'
+
+# ============ Menu GUI - Confirmations ============
+menu-delete-confirm-title: '&4&l» Delete Confirmation «'
+menu-confirm-yes: '&a✓ &lYes'
+menu-confirm-no: '&c✗ &lNo'
+
+# ============ Menu GUI - Other ============
+menu-info-title: '&b&lPlot Information'
+menu-delete-title: '&4Delete Confirmation'
+menu-added-member-title: '&aClick to remove'
+
+click-to-add-member: '&7Click to add member'
+click-to-remove-member: '&7Click to remove member'
+click-to-confirm-delete: '&7Click to confirm deletion'
+click-to-cancel: '&7Click to cancel'
+
+# ============ Items ============
+plot-item-name: '&bPlot'
+plot-item-lore:
+  - '&7Place this block to create your plot.'
+  - '&7Size: %size%x%size%'
+
+plot-member-display: '&7%member%'
+
+# ============ Information ============
+no-members: '&7(no members)'
+no-members-text: '&cNo members in the list'
+gave-item: '&a✓ You gave a player a plot block size %size%x%size%'
+plot-gave-item: '&a✓ You gave yourself a plot block size %size%x%size%'
+
+plot-info-page: '&6Region: &f%region%&6\nSize: &f%size%&6\nCoordinates: &f%coords%'
+plot-info-members: '&6Members: &f%members%'
+
+plot-remove-confirm: '&cAre you sure you want to remove the plot?'
+invalid-chat-input: '&cInvalid name. Try again.'
+plot-confirm-delete: '&cAre you sure you want to delete the plot and receive the block?'

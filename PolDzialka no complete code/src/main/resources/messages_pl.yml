@@ -1,0 +1,122 @@
+# ====================================================
+# Wiadomości pluginu poldzialka - Polski
+# Kompletny plik z wszystkimi wiadomościami
+# ====================================================
+
+plugin-prefix: '&8[&bpoldzialka&8]'
+
+# ============ Wiadomości dotyczące działek ============
+plot-created: '&a✓ Działka została utworzona! Region: &e%region%'
+plot-deleted: '&a✓ Działka została usunięta!'
+plot-error: '&cBłąd przy tworzeniu działki'
+plot-max-reached: '&cOsiągnąłeś maksymalną liczbę działek (konfigurowalne).'
+plot-too-close: '&cTa działka znajduje się zbyt blisko innej działki!'
+plot-wrong-location: '&cMożesz postawić działkę tylko na pełnym bloku!'
+plot-invalid-size: '&cNieprawidłowy rozmiar działki! Dozwolone: 11, 15, 21, 31'
+plot-invalid-item: '&cTen przedmiot nie jest blokiem działki.'
+plot-not-on-own-plot: '&cMusisz stać na swojej działce, aby otworzyć menu.'
+plot-break-not-owner: '&cTylko właściciel może zniszczyć środek działki!'
+plot-no-permission: '&cNie masz uprawnień do tej komendy.'
+no-permission-plot: '&cNie masz uprawnień do zarządzania tą działką!'
+
+plot-permissions-applied: '&a✓ Nadano podstawowe permisje grupie default dla gracza %player% (LuckPerms)'
+
+# ============ Wiadomości dotyczące członków ============
+plot-add-member-prompt: '&eNapisz nick gracza, którego chcesz dodać do działki:'
+plot-added-member: '&a✓ Gracz &e%member% &azostał dodany do działki!'
+plot-removed-member: '&a✓ Gracz &e%member% &azostał usunięty z działki!'
+plot-member-already-exists: '&cTen gracz jest już członkiem działki!'
+plot-member-not-found: '&cNie znaleziono gracza online o takim nicku.'
+plot-member-not-on-plot: '&cTen gracz nie jest członkiem tej działki.'
+member-added-self: '&cNie możesz dodać siebie jako członka.'
+plot-only-owner-flags: '&cTylko właściciel działki może zmieniać flagi.'
+plot-flag-updated: '&a&lFlaga %flag% została ustawiona na %state%'
+plot-flag-unsupported: '&cNieobsługiwana flaga: %flag%'
+plot-flag-error: '&cWystąpił błąd podczas zmiany flagi.'
+
+# ============ Wiadomości dotyczące flag ============
+flag-pvp-toggled: '&e✓ Flaga PVP została zmieniona'
+flag-entry-toggled: '&e✓ Flaga ENTRY została zmieniona'
+flag-mob-spawning-toggled: '&e✓ Flaga MOB_SPAWNING została zmieniona'
+flag-chest-access-toggled: '&e✓ Flaga CHEST_ACCESS została zmieniona'
+flag-ride-toggled: '&e✓ Flaga RIDE została zmieniona'
+
+# ============ Menu GUI - Główne ============
+menu-main-title: '&b&l» Menu Działki «'
+menu-manage-members: '&e&lZarządzaj Członkami'
+menu-manage-members-desc: '&7Kliknij aby zarządzać członkami działki'
+menu-manage-members-lore:
+  - '&7Kliknij, aby zarządzać członkami swojej działki.'
+  
+menu-manage-flags: '&e&lUstawienia Flag'
+menu-manage-flags-desc: '&7Kliknij aby zmienić flagi regionu'
+menu-manage-flags-locked: '&c&lUstawienia Flag (tylko właściciel)'
+menu-manage-flags-locked-desc: '&7Tylko właściciel działki może zmieniać flagi.'
+
+menu-plot-info: '&e&lInformacje'
+menu-plot-info-desc: '&7Kliknij aby zobaczyć informacje o działce'
+menu-plot-info-lore:
+  - '&7Wyświetl szczegóły swojej działki.'
+  
+menu-delete-plot: '&4&lUsuń Działkę'
+menu-delete-plot-desc: '&7Kliknij aby usunąć działkę'
+menu-delete-plot-lore:
+  - '&7Usuń działkę i odbierz blok działki.'
+
+# ============ Menu GUI - Członkowie ============
+menu-add-member: '&a&lDodaj Członka'
+menu-add-member-lore:
+  - '&7Dodaj nowego członka do swojej działki.'
+  
+menu-remove-member: '&c&lUsuń Członka'
+menu-remove-member-lore:
+  - '&7Usuń istniejącego członka działki.'
+  
+menu-member-list-title: '&e&l» Lista Członków «'
+
+# ============ Menu GUI - Flagi ============
+menu-flags-title: '&b&l» Ustawienia Flag «'
+flag-pvp: '&6PVP (Walka)'
+flag-entry: '&6Wchodzenie'
+flag-mob-spawning: '&6Spawnowanie Mobów'
+flag-chest-access: '&6Dostęp do Skrzyń'
+flag-ride: '&6Pojazdy/Wózki'
+
+# ============ Menu GUI - Potwierdzenia ============
+menu-delete-confirm-title: '&4&l» Potwierdzenie Usunięcia «'
+menu-confirm-yes: '&a✓ &lTak'
+menu-confirm-no: '&c✗ &lNie'
+
+# ============ Menu GUI - Inne ============
+menu-info-title: '&b&lInformacje o Działce'
+menu-delete-title: '&4Potwierdzenie usunięcia'
+menu-added-member-title: '&aKliknij aby usunąć'
+menu-back: '&e&lPowrót'
+menu-back-desc: '&7Wróć do menu działki'
+
+click-to-add-member: '&7Kliknij aby dodać członka'
+click-to-remove-member: '&7Kliknij aby usunąć członka'
+click-to-confirm-delete: '&7Kliknij aby potwierdzić usunięcie'
+click-to-cancel: '&7Kliknij aby anulować'
+
+# ============ Przedmioty ============
+plot-item-name: '&bDziałka'
+plot-item-lore:
+  - '&7Umieść ten blok, aby utworzyć działkę.'
+  - '&7Rozmiar: %size%x%size%'
+  - '&7Możesz nadać mu nazwę w kowadle przed postawieniem.'
+
+plot-member-display: '&7%member%'
+
+# ============ Informacje ============
+no-members: '&7(brak członków)'
+no-members-text: '&cBrak członków na liście'
+gave-item: '&a✓ Dałeś graczowi blok działki rozmiar %size%x%size%'
+plot-gave-item: '&a✓ Dałeś sobie blok działki rozmiar %size%x%size%'
+
+plot-info-page: '&6Region: &f%region%&6\nRozmiar: &f%size%&6\nWspółrzędne: &f%coords%'
+plot-info-members: '&6Członkowie: &f%members%'
+
+plot-remove-confirm: '&cCzy na pewno chcesz usunąć działkę?'
+invalid-chat-input: '&cNiepoprawny nick. Spróbuj ponownie.'
+plot-confirm-delete: '&cCzy na pewno chcesz usunąć działkę i zwrócić blok?'
